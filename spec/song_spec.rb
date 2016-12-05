@@ -8,7 +8,6 @@ describe Song do
   let!(:song) { Song.new }
 
   it "can initialize a song" do
-    binding.pry
     expect(song).to be_a(Song)
   end
 
